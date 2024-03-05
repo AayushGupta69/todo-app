@@ -41,3 +41,5 @@ app.put("/updateTodo", async (req, res) => {
 
     res.status(200).json({message: "Marked todo as completed!"});
 })
+
+app.listen(3000);
